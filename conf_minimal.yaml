@@ -1,0 +1,28 @@
+mixed-port: 7890
+allow-lan: true
+mode: rule
+log-level: info
+
+proxies:
+  - name: IO-Server
+    type: vless
+    server: 95.181.162.66
+    port: 443
+    network: tcp
+    udp: true
+    tls: true
+    servername: archlinux.org
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    uuid: fbdf8df8-e3d0-454a-85c5-98fc7e9e6e45
+    flow: xtls-rprx-vision
+
+proxy-groups:
+  - name: PROXY
+    type: select
+    proxies:
+      - IO-Server
+      - DIRECT
+
+rules:
+  - MATCH,PROXY
