@@ -119,7 +119,8 @@ nameserver-policy:
       - +.newpppp.com
       - +.ofalibi.com
 proxies:
-  - name: � IOH Server
+proxies:
+  - name: IO-Server
     type: vless
     server: 95.181.162.66
     port: 443
@@ -136,124 +137,115 @@ proxy-groups:
   - name: 🌎VPN
     type: select
     proxies:
-      - 🌐 IO Server
+      - IO-Server
       - DIRECT
   - name: 🔗 Остальные сайты
     type: select
     proxies:
       - DIRECT
-      - � IO Sernver
+      - IO-Server
   - name: RUSSIAN_SERVICES
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Russia.png
     type: select
     proxies:
       - DIRECT
-      - � IO Servedr
+      - IO-Server
   - name: CHINESE_SERVICES
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/China.png
     type: select
     proxies:
       - DIRECT
-      - 🌐 IO Server
+      - IO-Server
   - name: GOOGLE (YouTube)
     type: select
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Google.png
     proxies:
-      - 🌐 IO Server
+      - IO-Server
       - DIRECT
   - name: Meta Services
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Facebook.png
     type: select
     proxies:
-      - � IO Server
+      - IO-Server
       - DIRECT
   - name: Telegram
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Telegram.png
     type: select
     proxies:
-      - � IO SServer
+      - IO-Server
       - DIRECT
   - name: Spotify
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Spotify.png
     type: select
     proxies:
-      - 🌐 IO Server
+      - IO-Server
       - DIRECT
   - name: AI
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/AI.png
     type: select
     proxies:
-      - � I O Server
+      - IO-Server
       - DIRECT
   - name: NETFLIX
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Netflix.png
     type: select
     proxies:
-      - 🌐 IO Server
+      - IO-Server
       - DIRECT
   - name: PlayStation(Sony)
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/PlayStation.png
     type: select
     proxies:
       - DIRECT
-      - � IO aServer
+      - IO-Server
   - name: MICROSOFT(XBOX)
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Microsoft.png
     type: select
     proxies:
       - DIRECT
-      - 🌐 IO Server
+      - IO-Server
   - name: Finance
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Cryptocurrency.png
     type: select
     proxies:
       - DIRECT
-      - � IO Server
+      - IO-Server
   - name: Apple
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Apple_1.png
     type: select
     proxies:
       - DIRECT
-      - � IO Servner
+      - IO-Server
   - name: ZOOM
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Streaming.png
     type: select
     proxies:
       - DIRECT
-      - 🌐 IO Server
+      - IO-Server
   - name: Twitch
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Twitch.png
     type: select
     proxies:
       - DIRECT
-      - 🌐 IO Server
+      - IO-Server
   - name: Cinema
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Media.png
     type: select
     proxies:
-      - � I O Server
+      - IO-Server
       - DIRECT
   - name: PLEX
     type: select
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Media.png
     proxies:
       - DIRECT
-      - � IO SAerver
+      - IO-Server
   - name: ADS_BAN
     type: select
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Reject.png
     proxies:
       - REJECT
       - DIRECT
-rule-providers:
-  torrent-trackers:
-    type: http
-    behavior: domain
-    format: mrs
-    url: https://github.com/legiz-ru/mihomo-rule-sets/raw/main/other/torrent-trackers.mrs
-    path: ./rule-sets/torrent-trackers.mrs
-    interval: 86400
-  ru-bundle:
     type: http
     behavior: domain
     format: mrs
