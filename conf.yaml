@@ -119,8 +119,7 @@ nameserver-policy:
       - +.newpppp.com
       - +.ofalibi.com
 proxies:
-proxies:
-  - name: IO-Server
+  - name: IOH Server
     type: vless
     server: 95.181.162.66
     port: 443
@@ -137,115 +136,415 @@ proxy-groups:
   - name: 🌎VPN
     type: select
     proxies:
-      - IO-Server
+      - ⚡️ Fastest Europe
+      - ⚡️ Fastest Asia
+      - ⚡️ Fastest America
       - DIRECT
+      - 📶 Первый доступный
+      - 🇭🇰 HongKong 1
+      - 🇯🇵 Japan 1
+      - 🇹🇼 Taiwan 1
+      - 🇸🇬 Singapore 1
+      - 🇰🇷 South Korea 1
+      - 🇰🇿 Kazakhstan 1
+      - 🇯🇵 Japan 2
+      - 🇫🇮 Finland 1
+      - 🇷🇺 Russia 1
+      - 🇺🇸 USA 1
+      - 🇺🇸 USA 2
+      - 🇩🇪 Germany 1
+      - 🇵🇱 Poland 1
   - name: 🔗 Остальные сайты
     type: select
     proxies:
       - DIRECT
-      - IO-Server
+      - ⚡️ Fastest Europe
+      - ⚡️ Fastest Asia
+      - ⚡️ Fastest America
+      - 📶 Первый доступный
+      - 🇭🇰 HongKong 1
+      - 🇯🇵 Japan 1
+      - 🇹🇼 Taiwan 1
+      - 🇸🇬 Singapore 1
+      - 🇰🇷 South Korea 1
+      - 🇰🇿 Kazakhstan 1
+      - 🇯🇵 Japan 2
+      - 🇫🇮 Finland 1
+      - 🇷🇺 Russia 1
+      - 🇺🇸 USA 1
+      - 🇺🇸 USA 2
+      - 🇩🇪 Germany 1
+      - 🇵🇱 Poland 1
   - name: RUSSIAN_SERVICES
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Russia.png
     type: select
     proxies:
       - DIRECT
-      - IO-Server
+      - 🇷🇺 Russia 1
+      - 🇰🇿 Kazakhstan 1
+      - 🇫🇮 Finland 1
+      - 🇵🇱 Poland 1
+      - ⚡️ Fastest Europe
+      - 📶 Первый доступный
   - name: CHINESE_SERVICES
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/China.png
     type: select
     proxies:
       - DIRECT
-      - IO-Server
+      - ⚡️ Fastest Europe
+      - ⚡️ Fastest Asia
+      - ⚡️ Fastest America
+      - 📶 Первый доступный
+      - 🇭🇰 HongKong 1
+      - 🇹🇼 Taiwan 1
+      - 🇸🇬 Singapore 1
   - name: GOOGLE (YouTube)
     type: select
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Google.png
     proxies:
-      - IO-Server
+      - ⚡️ Fastest Europe
+      - ⚡️ Fastest Asia
+      - ⚡️ Fastest America
       - DIRECT
+      - 📶 Первый доступный
+      - 🇭🇰 HongKong 1
+      - 🇯🇵 Japan 1
+      - 🇹🇼 Taiwan 1
+      - 🇸🇬 Singapore 1
+      - 🇰🇷 South Korea 1
+      - 🇰🇿 Kazakhstan 1
+      - 🇯🇵 Japan 2
+      - 🇫🇮 Finland 1
+      - 🇷🇺 Russia 1
+      - 🇺🇸 USA 1
+      - 🇺🇸 USA 2
+      - 🇩🇪 Germany 1
+      - 🇵🇱 Poland 1
   - name: Meta Services
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Facebook.png
     type: select
     proxies:
-      - IO-Server
+      - ⚡️ Fastest Europe
+      - ⚡️ Fastest Asia
+      - ⚡️ Fastest America
+      - 📶 Первый доступный
       - DIRECT
+      - 🇰🇷 South Korea 1
+      - 🇭🇰 HongKong 1
+      - 🇯🇵 Japan 1
+      - 🇯🇵 Japan 2
+      - 🇫🇮 Finland 1
+      - 🇩🇪 Germany 1
+      - 🇰🇿 Kazakhstan 1
+      - 🇹🇼 Taiwan 1
+      - 🇺🇸 USA 1
+      - 🇺🇸 USA 2
+      - 🇸🇬 Singapore 1
+      - 🇵🇱 Poland 1
   - name: Telegram
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Telegram.png
     type: select
+    exclude-filter: 🇷🇺
     proxies:
-      - IO-Server
       - DIRECT
+      - ⚡️ Fastest Europe
+      - ⚡️ Fastest Asia
+      - ⚡️ Fastest America
+      - 📶 Первый доступный
+      - 🇭🇰 HongKong 1
+      - 🇯🇵 Japan 1
+      - 🇹🇼 Taiwan 1
+      - 🇸🇬 Singapore 1
+      - 🇰🇷 South Korea 1
+      - 🇰🇿 Kazakhstan 1
+      - 🇯🇵 Japan 2
+      - 🇫🇮 Finland 1
+      - 🇷🇺 Russia 1
+      - 🇺🇸 USA 1
+      - 🇺🇸 USA 2
+      - 🇩🇪 Germany 1
+      - 🇵🇱 Poland 1
   - name: Spotify
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Spotify.png
     type: select
     proxies:
-      - IO-Server
+      - ⚡️ Fastest Europe
+      - ⚡️ Fastest Asia
+      - ⚡️ Fastest America
+      - 📶 Первый доступный
       - DIRECT
+      - 🇭🇰 HongKong 1
+      - 🇯🇵 Japan 1
+      - 🇹🇼 Taiwan 1
+      - 🇸🇬 Singapore 1
+      - 🇰🇷 South Korea 1
+      - 🇰🇿 Kazakhstan 1
+      - 🇯🇵 Japan 2
+      - 🇫🇮 Finland 1
+      - 🇷🇺 Russia 1
+      - 🇺🇸 USA 1
+      - 🇺🇸 USA 2
+      - 🇩🇪 Germany 1
+      - 🇵🇱 Poland 1
   - name: AI
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/AI.png
     type: select
     proxies:
-      - IO-Server
-      - DIRECT
+      - ⚡️ Fastest America
+      - 📶 Первый доступный
+      - 🇩🇪 Germany 1
+      - 🇸🇬 Singapore 1
+      - 🇯🇵 Japan 1
+      - 🇯🇵 Japan 2
+      - 🇰🇿 Kazakhstan 1
+      - 🇺🇸 USA 1
+      - 🇺🇸 USA 2
+      - 🇫🇮 Finland 1
+      - 🇰🇷 South Korea 1
+      - 🇵🇱 Poland 1
   - name: NETFLIX
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Netflix.png
     type: select
     proxies:
-      - IO-Server
-      - DIRECT
+      - ⚡️ Fastest Europe
+      - ⚡️ Fastest Asia
+      - ⚡️ Fastest America
+      - 📶 Первый доступный
+      - 🇭🇰 HongKong 1
+      - 🇯🇵 Japan 1
+      - 🇹🇼 Taiwan 1
+      - 🇸🇬 Singapore 1
+      - 🇰🇷 South Korea 1
+      - 🇰🇿 Kazakhstan 1
+      - 🇯🇵 Japan 2
+      - 🇫🇮 Finland 1
+      - 🇷🇺 Russia 1
+      - 🇺🇸 USA 1
+      - 🇺🇸 USA 2
+      - 🇩🇪 Germany 1
+      - 🇵🇱 Poland 1
   - name: PlayStation(Sony)
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/PlayStation.png
     type: select
     proxies:
       - DIRECT
-      - IO-Server
+      - 🇰🇷 South Korea 1
+      - 🇭🇰 HongKong 1
+      - 🇯🇵 Japan 1
+      - 🇯🇵 Japan 2
+      - 🇫🇮 Finland 1
+      - 🇩🇪 Germany 1
+      - 🇰🇿 Kazakhstan 1
+      - 🇹🇼 Taiwan 1
+      - 🇺🇸 USA 1
+      - 🇺🇸 USA 2
+      - 🇸🇬 Singapore 1
+      - 🇵🇱 Poland 1
+      - ⚡️ Fastest Europe
+      - ⚡️ Fastest Asia
+      - ⚡️ Fastest America
+      - 📶 Первый доступный
   - name: MICROSOFT(XBOX)
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Microsoft.png
     type: select
     proxies:
       - DIRECT
-      - IO-Server
+      - 🇰🇷 South Korea 1
+      - 🇭🇰 HongKong 1
+      - 🇯🇵 Japan 1
+      - 🇯🇵 Japan 2
+      - 🇫🇮 Finland 1
+      - 🇩🇪 Germany 1
+      - 🇰🇿 Kazakhstan 1
+      - 🇹🇼 Taiwan 1
+      - 🇺🇸 USA 1
+      - 🇺🇸 USA 2
+      - 🇸🇬 Singapore 1
+      - 🇵🇱 Poland 1
+      - ⚡️ Fastest Europe
+      - ⚡️ Fastest Asia
+      - ⚡️ Fastest America
+      - 📶 Первый доступный
   - name: Finance
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Cryptocurrency.png
     type: select
     proxies:
       - DIRECT
-      - IO-Server
+      - 🇰🇷 South Korea 1
+      - 🇭🇰 HongKong 1
+      - 🇯🇵 Japan 1
+      - 🇯🇵 Japan 2
+      - 🇫🇮 Finland 1
+      - 🇩🇪 Germany 1
+      - 🇰🇿 Kazakhstan 1
+      - 🇹🇼 Taiwan 1
+      - 🇺🇸 USA 1
+      - 🇺🇸 USA 2
+      - 🇸🇬 Singapore 1
+      - 🇵🇱 Poland 1
+      - ⚡️ Fastest Europe
+      - ⚡️ Fastest Asia
+      - ⚡️ Fastest America
+      - 📶 Первый доступный
   - name: Apple
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Apple_1.png
     type: select
     proxies:
       - DIRECT
-      - IO-Server
+      - 🇰🇷 South Korea 1
+      - 🇭🇰 HongKong 1
+      - 🇯🇵 Japan 1
+      - 🇯🇵 Japan 2
+      - 🇫🇮 Finland 1
+      - 🇩🇪 Germany 1
+      - 🇰🇿 Kazakhstan 1
+      - 🇹🇼 Taiwan 1
+      - 🇺🇸 USA 1
+      - 🇺🇸 USA 2
+      - 🇸🇬 Singapore 1
+      - 🇵🇱 Poland 1
+      - ⚡️ Fastest Europe
+      - ⚡️ Fastest Asia
+      - ⚡️ Fastest America
+      - 📶 Первый доступный
   - name: ZOOM
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Streaming.png
     type: select
     proxies:
       - DIRECT
-      - IO-Server
+      - 🇰🇷 South Korea 1
+      - 🇭🇰 HongKong 1
+      - 🇯🇵 Japan 1
+      - 🇯🇵 Japan 2
+      - 🇫🇮 Finland 1
+      - 🇩🇪 Germany 1
+      - 🇰🇿 Kazakhstan 1
+      - 🇹🇼 Taiwan 1
+      - 🇺🇸 USA 1
+      - 🇺🇸 USA 2
+      - 🇸🇬 Singapore 1
+      - 🇵🇱 Poland 1
+      - ⚡️ Fastest Europe
+      - ⚡️ Fastest Asia
+      - ⚡️ Fastest America
+      - 📶 Первый доступный
   - name: Twitch
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Twitch.png
     type: select
     proxies:
       - DIRECT
-      - IO-Server
+      - 🇰🇷 South Korea 1
+      - 🇭🇰 HongKong 1
+      - 🇯🇵 Japan 1
+      - 🇯🇵 Japan 2
+      - 🇫🇮 Finland 1
+      - 🇩🇪 Germany 1
+      - 🇰🇿 Kazakhstan 1
+      - 🇹🇼 Taiwan 1
+      - 🇺🇸 USA 1
+      - 🇺🇸 USA 2
+      - 🇸🇬 Singapore 1
+      - 🇵🇱 Poland 1
+      - ⚡️ Fastest Europe
+      - ⚡️ Fastest Asia
+      - ⚡️ Fastest America
+      - 📶 Первый доступный
   - name: Cinema
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Media.png
     type: select
     proxies:
-      - IO-Server
+      - ⚡️ Fastest Europe
+      - ⚡️ Fastest Asia
+      - ⚡️ Fastest America
+      - 📶 Первый доступный
       - DIRECT
+      - 🇰🇷 South Korea 1
+      - 🇭🇰 HongKong 1
+      - 🇯🇵 Japan 1
+      - 🇯🇵 Japan 2
+      - 🇫🇮 Finland 1
+      - 🇩🇪 Germany 1
+      - 🇰🇿 Kazakhstan 1
+      - 🇹🇼 Taiwan 1
+      - 🇺🇸 USA 1
+      - 🇺🇸 USA 2
+      - 🇸🇬 Singapore 1
+      - 🇵🇱 Poland 1
   - name: PLEX
     type: select
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Media.png
     proxies:
       - DIRECT
-      - IO-Server
+      - ⚡️ Fastest Europe
+      - ⚡️ Fastest Asia
+      - ⚡️ Fastest America
   - name: ADS_BAN
     type: select
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Reject.png
     proxies:
       - REJECT
       - DIRECT
+  - name: ⚡️ Fastest Europe
+    type: url-test
+    tolerance: 100
+    url: https://www.gstatic.com/generate_204
+    interval: 300
+    hidden: true
+    proxies:
+      - 🇫🇮 Finland 1
+      - 🇩🇪 Germany 1
+      - 🇵🇱 Poland 1
+      - 🇰🇿 Kazakhstan 1
+  - name: ⚡️ Fastest America
+    type: url-test
+    tolerance: 100
+    url: https://www.gstatic.com/generate_204
+    interval: 300
+    hidden: true
+    proxies:
+      - 🇺🇸 USA 1
+      - 🇺🇸 USA 2
+  - name: ⚡️ Fastest Asia
+    type: url-test
+    tolerance: 100
+    url: https://www.gstatic.com/generate_204
+    interval: 300
+    hidden: true
+    proxies:
+      - 🇭🇰 HongKong 1
+      - 🇯🇵 Japan 1
+      - 🇯🇵 Japan 2
+      - 🇹🇼 Taiwan 1
+      - 🇸🇬 Singapore 1
+      - 🇰🇷 South Korea 1
+  - name: 📶 Первый доступный
+    type: fallback
+    url: https://www.gstatic.com/generate_204
+    interval: 300
+    hidden: true
+    proxies:
+      - 🇭🇰 HongKong 1
+      - 🇯🇵 Japan 1
+      - 🇹🇼 Taiwan 1
+      - 🇸🇬 Singapore 1
+      - 🇰🇷 South Korea 1
+      - 🇰🇿 Kazakhstan 1
+      - 🇯🇵 Japan 2
+      - 🇫🇮 Finland 1
+      - 🇷🇺 Russia 1
+      - 🇺🇸 USA 1
+      - 🇺🇸 USA 2
+      - 🇩🇪 Germany 1
+      - 🇵🇱 Poland 1
+rule-providers:
+  torrent-trackers:
+    type: http
+    behavior: domain
+    format: mrs
+    url: https://github.com/legiz-ru/mihomo-rule-sets/raw/main/other/torrent-trackers.mrs
+    path: ./rule-sets/torrent-trackers.mrs
+    interval: 86400
+  ru-bundle:
     type: http
     behavior: domain
     format: mrs
